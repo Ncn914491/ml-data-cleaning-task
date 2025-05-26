@@ -1,0 +1,16 @@
+Categorical Feature Encoding Results
+===================================
+
+1. Label Encoding for 'Sex' column
+Mapping: {'female': np.int64(0), 'male': np.int64(1)}
+
+2. One-Hot Encoding for 'Sex' column
+Created columns: Sex_male, Sex_female
+
+First 5 rows after encoding:
+      Sex  Sex_Label  Sex_male  Sex_female
+0    male          1      True       False
+1  female          0     False        True
+2  female          0     False        True
+3  female          0     False        True
+4    male          1      True       False

@@ -1,0 +1,24 @@
+Numerical Feature Scaling Results
+================================
+
+1. Standardization (Z-score normalization)
+Parameters:
+Age: mean = 29.4714, std = 14.1139
+Fare: mean = 32.3054, std = 49.7540
+Siblings/Spouses Aboard: mean = 0.5254, std = 1.1040
+Parents/Children Aboard: mean = 0.3833, std = 0.8070
+
+2. Min-Max Normalization
+Parameters:
+Age: min = 0.4200, max = 80.0000
+Fare: min = 0.0000, max = 512.3292
+Siblings/Spouses Aboard: min = 0.0000, max = 8.0000
+Parents/Children Aboard: min = 0.0000, max = 6.0000
+
+First 5 rows comparison:
+   Age_Original  Fare_Original  Siblings/Spouses Aboard_Original  Parents/Children Aboard_Original  Age_Standardized  Fare_Standardized  Siblings/Spouses Aboard_Standardized  Parents/Children Aboard_Standardized  Age_MinMax  Fare_MinMax  Siblings/Spouses Aboard_MinMax  Parents/Children Aboard_MinMax
+0          22.0         7.2500                                 1                                 0         -0.529366          -0.503586                              0.429904                             -0.474981    0.271174     0.014151                           0.125                             0.0
+1          38.0        71.2833                                 1                                 0          0.604265           0.783412                              0.429904                             -0.474981    0.472229     0.139136                           0.125                             0.0
+2          26.0         7.9250                                 0                                 0         -0.245958          -0.490020                             -0.475856                             -0.474981    0.321438     0.015469                           0.000                             0.0
+3          35.0        53.1000                                 1                                 0          0.391709           0.417948                              0.429904                             -0.474981    0.434531     0.103644                           0.125                             0.0
+4          35.0         8.0500                                 0                                 0          0.391709          -0.487507                             -0.475856                             -0.474981    0.434531     0.015713                           0.000                             0.0

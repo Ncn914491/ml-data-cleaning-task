@@ -1,0 +1,26 @@
+Outlier Analysis Results
+======================
+
+Age:
+  - Outliers: 13 (1.47% of data)
+  - Lower bound: -6.38
+  - Upper bound: 64.62
+
+Fare:
+  - Outliers: 116 (13.08% of data)
+  - Lower bound: -26.89
+  - Upper bound: 65.96
+
+Siblings/Spouses Aboard:
+  - Outliers: 46 (5.19% of data)
+  - Lower bound: -1.50
+  - Upper bound: 2.50
+
+Parents/Children Aboard:
+  - Outliers: 213 (24.01% of data)
+  - Lower bound: 0.00
+  - Upper bound: 0.00
+
+Total rows before outlier removal: 887
+Total rows after outlier removal: 592
+Rows removed: 295 (33.26% of data)
